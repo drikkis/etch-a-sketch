@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+    border: solid;
+    box-sizing: border-box;
+}
+
+.touchedSquare {
+    background-color: blue;
+}
