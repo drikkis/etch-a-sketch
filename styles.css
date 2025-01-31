@@ -2,20 +2,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 24px;
 }
 
 #container {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
+    margin: 8px;
+    border: dotted;
 }
 
 .square {
-    width: 100px;
-    height: 100px;
+    min-width: 4%;
     background-color: gainsboro;
-    border: solid;
+    border: 1px solid;
     box-sizing: border-box;
 }
 
